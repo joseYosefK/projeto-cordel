@@ -11,7 +11,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(221, 219, 219);
 }
 header{
     background-color: black;
@@ -48,7 +48,12 @@ section{
     line-height: 2em;
     padding-left: 5%;
     font-family: var(--fonte02);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
     font-size: 3vh;
+    background-color: rgb(245, 245, 245);
+    box-shadow: inset 5px 5px 10px 2px black;
 }
     .nomal{
         background-color: white;
@@ -61,20 +66,13 @@ section{
         section.imagem > p{
             background-color: rgba(0, 0, 0, 0.281);
             max-width: 200px;
-            box-shadow: 5px 0px 3px 5px rgba(0, 0, 0, 0.096) ;
             padding-left: 2px;
         }
     #imagem01{
         background-image: url('../imagens/background001.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center center;
     }
     #imagem02{
         background-image: url('../imagens/background002.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center center;
     }    
 
 footer{
